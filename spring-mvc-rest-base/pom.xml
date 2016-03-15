@@ -64,8 +64,6 @@
 
     <build>
         <plugins>
-            
-            
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -112,7 +110,7 @@
                 </executions>
             </plugin>
             
-             <!-- Tomcat embedded plugin. -->
+            <!-- Tomcat embedded plugin. -->
             <plugin>
                 <groupId>org.apache.tomcat.maven</groupId>
                 <artifactId>tomcat7-maven-plugin</artifactId>
@@ -122,11 +120,10 @@
                     <path>/</path>
                 </configuration>
             </plugin>
-            
-            
-            
+               
             
         </plugins>
     </build>
+
 
 </project>
